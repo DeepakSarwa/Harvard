@@ -1,0 +1,448 @@
+#main {
+  /* background-image: url("./Images/1st.jpg"); */
+  height: 100%;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  background-size: cover;
+  position: relative;
+}
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.demo-bg {
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: auto;
+}
+
+div img {
+  height: 50px;
+}
+div p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 95%;
+  margin: 0% auto;
+  padding-bottom: 10%;
+}
+div p,
+h1,
+h3 {
+  text-align: center;
+}
+.jumbotron {
+  border-right: 1px solid grey;
+  font-family: Canela Deck Web;
+  font-size: 56px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -.1px;
+}
+h3 span {
+  font-size: 0.7em;
+  font-weight: 550;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fa-solid {
+  background-color: rgb(180, 42, 42);
+  padding: 5px;
+  color: aliceblue;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  font-size: 1.4em;
+  padding: 3px;
+  font-weight: 700;
+}
+h4 {
+  display: flex;
+  flex-direction: row;
+}
+span li {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+/* #small {
+  font-size: 0.5em;
+} */
+table {
+  width: 100%;
+  margin: 2px;
+}
+table tr td img {
+  height: 300px;
+  background-size: cover;
+}
+.secondimg {
+  height: 530px;
+  background-size: cover;
+  border-right: 1px solid black;
+}
+#secondimagesection {
+  display: flex;
+  padding: 20px;
+}
+@media (max-width: 800px) {
+  #secondimagesection {
+    flex-direction: column;
+  }
+}
+.secondimgtext {
+  text-align: left;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#secondfinal {
+  padding: 7%;
+}
+#thirdsection {
+  padding: 10px;
+}
+#tab {
+  width: 75%;
+  margin: 0% auto;
+}
+#tabid {
+  display: flex;
+  justify-content: space-between;
+}
+/* .imgmanage{
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+} */
+table {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 80%; */
+}
+tr {
+  padding: 5%;
+  position: relative;
+}
+tr td {
+  /* position: absolute; */
+  height: 500px;
+  width: 500px;
+  margin: 2%;
+}
+#thirdimg {
+  background-image: url("./Images/3rd.webp");
+  background-size: cover;
+  /* box-shadow: 3px 4px 5px 6px #000;  */
+}
+#fourthimg {
+  background-image: url("./Images/4th.webp");
+  background-size: cover;
+}
+#fifthimg {
+  background-image: url("./Images/5th.webp");
+  background-size: cover;
+}
+tr td p {
+  color: aliceblue;
+  position: absolute;
+  height: 450px;
+  width: 380px;
+  margin-top: 23%;
+}
+tr td h2 {
+  color: aliceblue;
+  position: absolute;
+  font-family: Canela Deck Web;
+  height: 450px;
+  width: 380px;
+  margin-top: 18%;
+  font-weight: 500;
+  padding: 1%;
+}
+.threeimagearrow {
+  position: absolute;
+  font-family: Canela Deck Web;
+  height: 450px;
+  width: 380px;
+  margin-top: 29%;
+  font-weight: 500;
+  padding: 1%;
+  font-size: 1.2em;
+  color: aliceblue;
+}
+/* .threeimagearrow .fa-solid{
+  background-color: black;
+  font-size: 2em;
+  padding: 4px;
+} */
+.rightarrow {
+  height: 9%;
+  width: 11%;
+  background-color: white;
+  border: 0.4px solid rgb(114, 114, 114);
+  border-radius: 50%;
+}
+#leadership {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* @media (max-width: 800px) {
+  #leadership {
+    flex-direction: column;
+  }
+} */
+
+#textonly {
+  border-right: 1px solid grey;
+  font-family: Canela Deck Web;
+  font-size: 56px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -.1px;
+}
+.leadership2{
+  padding-left: 2%;
+}
+#leadershiparrow{
+  background-color: white;
+  border: 0.4px solid rgb(114, 114, 114);
+  border-radius: 50%;
+}
+.sixth{
+  font-family: Canela Deck Web;
+  font-size: 56px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -.1px;
+  text-align: left;
+  color: aliceblue;
+  padding-top: 250px;
+  padding-left: 2.7%;
+  /* position: absolute; */
+}
+#textmanager{
+  font-size: 0.3em;
+  text-align: left;
+  color: aliceblue;
+}
+#happinessarrow{
+  border-radius: 50%;
+  background-color: rgb(240, 243, 243);
+}
+#happiness{
+  width: 80%;
+  height: 600px;
+  margin: 0% auto;
+  font-family: Canela Deck Web;
+  font-size: 56px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -.1px;
+  text-align: left;
+  background-image: url("./Images/6th.webp");
+  background-size: cover;
+}
+#healthandhappiness{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10%;
+}
+.card-text{
+  font-size: 0.3em;
+  text-align: left;
+}
+.card-title{
+  font-family: Canela Deck Web;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.5em;
+  padding-left: 2%;
+}
+.card-img-top{
+  height: 30%;
+}
+#textonly2{
+  border-right: 1px solid grey;
+  font-family: Canela Deck Web;
+  font-size: 56px;
+  line-height: 1.2;
+  font-style: normal;
+  /* font-weight: 400; */
+  letter-spacing: -.1px;
+  text-align: left;
+  width: 50%;
+}
+#community{
+  height: 80%;
+  
+}
+#textleadership{
+  font-size: 0.3em;
+  text-align: left;
+  margin-right: 31px;
+}
+#leadership3{
+  margin: 1% auto;
+  font-family: Canela Deck Web;
+  font-size: 56px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -.1px;
+  text-align: left;
+}
+.pet{
+  font-size: 0.3em;
+  text-align: left;
+  margin-right: 20px;
+  font-weight: 600;
+}
+.pet2{
+  font-size: 0.3em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.petimg{
+  height: 70px;
+  width: 50px;
+}
+#section{
+  /* position:absolute; */
+  margin-top: 104%;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 0% auto; */
+
+}
+@media (max-width: 800px) {
+  #section {
+    flex-direction: column;
+  }
+}
+#imgcontent{
+  height: 60%;
+  margin: 10%;
+}
+.secondimgtext2 {
+  text-align: left;
+  /* padding: 10px; */
+  /* margin-bottom: 10%; */
+  color: black;
+  font-size: 0.4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#secondfinal2 {
+  padding: 7%;
+}
+#sectiontext{
+  width: 70%;
+  margin-top: 10%;
+}
+.jumbotron2 {
+  /* border-right: 1px solid grey; */
+  font-family: Canela Deck Web;
+  /* font-size: 54px; */
+  color: black;
+  /* line-height: 1.2; */
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  text-align: left;
+  /* letter-spacing: -.1px; */
+}
+.semifooter{
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.semifooter1{
+  color: aliceblue;
+  border-right: 1px solid rgb(255, 255, 255);
+  padding: 2%;
+}
+.semifooter2{
+  text-align: left;
+}
+.semifoothertext2{
+  font-family: Canela Deck Web;
+  font-size: 50px;
+  /* line-height: 1.2; */
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -.1px;
+}
+#semifooterlist{
+  list-style: none;
+}
+#semifooterlist>li>a{
+color: aliceblue;
+text-decoration: none;
+text-align: left;
+font-size: large;
+}
+#semifooterlist>li{
+  text-decoration-line:underline;
+}
+
+#firsttext{
+  justify-content: center;
+  color: aliceblue;
+}
+.managelist{
+  /* margin-bottom: 30px; */
+ list-style: none; 
+ text-align: center;
+ color: grey;
+}
+#foot{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;  
+}
+.foottext{
+  font-family:'Times New Roman', Times, serif;
+  padding-bottom: 0%;
+  font-size: 1.5em;
+}
+.foottext1{
+  font-family:'Times New Roman', Times, serif;
+  padding-bottom: 0%;
+  font-size: 1em;
+}
+.foottext2{
+  padding-bottom: 0%;
+}
+
+
+/* .gfg {h
+  opacity: 1.3;
+  margin: 3%;
+  position: relative;
+  height: 450px;
+  width: 400px;
+}
+
+.first-txt {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  color: aliceblue;
+}
+
+.second-txt {
+  position: absolute;
+  color: aliceblue;
+  bottom: 20px;
+  left: 10px;
+}
+#tab{
+  width: 80%;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-between;
+} */
